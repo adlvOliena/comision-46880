@@ -202,7 +202,7 @@ header{
 .headerNovedades{
     background-color: darkcyan;
     width: 980px;
-    height: 6.25rem;
+    height: 13.125rem;
     margin: .625rem;
     padding: .75rem;
     text-indent: 1.875rem;
@@ -379,4 +379,4 @@ header{
 
 .boton-novedades a{
     text-decoration: none;
-}
+} 
