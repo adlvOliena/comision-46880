@@ -1,0 +1,46 @@
+.cardAuditoria{
+    width: 90%;
+    height: 100%;
+    background-color: $bg-auditoria;
+    border-radius: .625rem;
+    overflow: hidden;
+    box-shadow: 7px 7px 7px rgba(128, 128, 128, 0.166);
+    margin-bottom: .3125rem;
+    position: relative;
+    text-align: justify;
+    padding: 15px;
+    grid-area: auditoria;
+    & h2{
+        text-align: center;;
+    }
+    &:hover{
+        transform: translate(20px,10px);
+    }
+}
+
+.cardImpuestos{
+    @extend .cardAuditoria;
+    background-color: $bg-impuestos;
+    grid-area: impuestos;
+    &:hover{
+        transform: translate(20px,10px);
+    }
+}
+
+.cardSociedades{
+    @extend .cardAuditoria;
+    background-color: $bg-sociedades;
+    grid-area: sociedades;
+    &:hover{
+        transform: translate(20px,10px);
+    }
+}
+
+.cardBalances{
+    @extend .cardAuditoria;
+    background-color: $bg-balances;
+    grid-area: balances;
+    &:hover{
+        transform: translate(20px,10px);
+    }
+}

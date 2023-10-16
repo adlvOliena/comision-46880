@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100&display=swap');
+
+header{
+    width: 100%;
+    position: sticky;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1,25rem;
+    top: 0;
+    z-index: 4;
+}
+
+
+.logo{
+    width: 60px;
+    padding: 5px;
+    
+}
+
+.logo img{
+    width: 100%;
+}
+
+.foto-portada{
+    padding: .625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.foto-portada img{
+    width: 37.5rem;
+    height: 12.5rem;
+    ;
+}
+
+.titulo h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 20px;
+    }
+
+.navbar li a{
+    text-decoration: none;       
+}
+
+.subtitulo{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: underline;
+    height: 100%;
+    width: 350px;
+    align-items: center;
+    font-size: x-large;
+    padding: 20px;
+}
+
+.subtitulo p{
+    padding: .3125rem;
+}
+
+.subtitulo img{
+    height: 200px;
+    width: 300px;
+    border-radius: .625rem;
+}
+
+
+
+.filosofia p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: .625rem;
+}
+
+.formularioContacto{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formularioContacto form{
+    padding: .3125rem;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 1.25rem;
+}
+
+.containerSubtitulo{
+    display: flex;
+    justify-content: center;
+}
+
+.containerContactos{
+    display: grid;
+    width: 100%;
+    height:400px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "austin"
+    "goldman"
+    "wells";
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    gap: .9375rem;  
+}
+
+@media(min-width: 744px){
+    .headerContactos{
+        background-color: #c9b5ee;
+        width: 90%;
+        height: 100%;
+        border-radius: .625rem;
+        overflow: hidden;
+        box-shadow: 7px 7px 7px rgba(128, 128, 128, 0.166);
+        margin-bottom: 10px;
+        position: relative;
+        text-align: justify;
+        padding: 15px;
+        gap: 1.25rem;
+    }
+}
+
+.headerContactos p{
+    padding: .625rem;
+    text-align: justify;
+    text-wrap: wrap ;
+}
+
+.headerContactos h2{
+    text-align: center;
+    text-wrap: wrap
+}
+
+@media(min-width: 425px) and (max-width: 744px){
+    .headerContactos{
+        background-color: #a67bf5;
+        border-radius: .625rem;
+        overflow: hidden;
+        box-shadow: 7px 7px 7px rgba(128, 128, 128, 0.166);
+    }
+    
+    .headerContactos p{
+        padding: 5px;
+        text-align: justify;
+   }
+}
+
+@media(max-width: 425px){
+    
+    .containerSubtitulo{
+        margin-bottom: 25px;
+    }
+    
+    .subtitulo{
+        margin-bottom: 30px;
+    }
+    .headerContactos{
+        background-color: #938ca0;
+        border-radius: .625rem;
+    }
+    
+    .headerContactos p{
+        padding: 5px;
+        text-align: justify;
+   }
+   .foot{
+    margin-top: 60px;
+   }
+}
+
+
+.headerNovedades{
+    background-color: darkcyan;
+    width: 980px;
+    height: 13.125rem;
+    margin: .625rem;
+    padding: .75rem;
+    text-indent: 1.875rem;
+    font-weight: bold;
+}
+
+.headernovedades p{
+    padding: .625rem;
+    text-align: justify;
+    text-wrap: 175rem ;
+}
+
+
+.articuloServicios{
+    display: grid;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(217, 231, 235);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "auditoria impuestos "
+    "sociedades balances";
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.cardServicios{
+    width: 90%;
+    height: 100%;
+    background-color: rgba(77, 46, 46, 0.052);
+    border-radius: .625rem;
+    overflow: hidden;
+    box-shadow: 7px 7px 7px rgba(128, 128, 128, 0.166);
+    margin-bottom: .3125rem;
+    position: relative;
+    text-align: justify;
+    padding: 15px;
+}
+
+.cardServicios h2{
+    text-align: center;;
+}
+
+.auditoria{
+    background-color: rgb(194, 167, 219);
+    grid-area: auditoria;
+}
+   
+.impuestos{
+    background-color: rgb(173, 122, 221);
+    grid-area: impuestos;
+}
+
+.sociedades{
+    background-color: rgb(128, 216, 110);
+    grid-area: sociedades;
+}
+
+.balances{
+    background-color: rgb(84, 201, 146);
+    grid-area: balances;
+}
+
+
+@media(max-width: 425px){
+    .articuloServicios{
+        background-color: black;
+    }
+
+    .titulo h1{
+        display: none;
+    }
+       
+    .titulo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+    .navbarresponsive{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+        
+    }
+    .articuloServicios{
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        "auditoria"
+        "impuestos"
+        "sociedades"
+        "balances";
+        
+    }
+    .cardServicios{
+        width: 200px;
+        height: 150px;
+        padding: 10px;
+        
+    }
+
+    .foot{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 1.25rem;
+    }
+}
+  
+@media(min-width: 425px) and (max-width: 744px){
+    .articuloServicios{
+        background-color: rgb(120, 197, 241);
+    }
+
+    .logo{
+        display: none;
+    }
+       
+    .titulo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+    .navbarresponsive{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+        
+    }
+    .articuloServicios{
+        width: 100%;
+        height: 100%;
+    }
+    .cardServicios{
+        width: 200px;
+        height: 150px;
+        padding: 10px;
+    }
+
+    .foot{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 1.25rem;
+    }
+}
+  
+
+.whatsapp-fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.boton-novedades button{
+    background-color: rgb(230, 201, 173);
+    padding: 30px 30px;
+    border: 2px solid rgba(0, 0, 255, 0.287); 
+    margin: 1.25rem;
+    border-radius: .625rem;
+    box-shadow: 5px 5px 1px; color: grey;
+}
+
+.boton-novedades a{
+    text-decoration: none;
+} 

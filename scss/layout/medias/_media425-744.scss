@@ -1,0 +1,55 @@
+@media(min-width: 425px) and (max-width: 744px){
+    .headerContactos{
+        background-color: $bg-headerContactos;
+        border-radius: .625rem;
+        overflow: hidden;
+        box-shadow: 7px 7px 7px rgba(128, 128, 128, 0.166);
+    }
+    
+    .headerContactos p{
+        padding: 5px;
+        text-align: justify;
+   }
+}
+
+
+@media(min-width: 425px) and (max-width: 744px){
+    .articuloServicios{
+        background-color: $bg-articulosServicios;
+    }
+
+    .logo{
+        display: none;
+    }
+       
+    .titulo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+    .navbarresponsive{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+        
+    }
+    .articuloServicios{
+        width: 100%;
+        height: 100%;
+    }
+    .cardServicios{
+        width: 200px;
+        height: 150px;
+        padding: 10px;
+    }
+
+    .foot{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 1.25rem;
+    }
+}
+  

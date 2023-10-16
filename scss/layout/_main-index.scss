@@ -1,0 +1,17 @@
+.foto-portada{
+    padding: .625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    & img{
+        width: 37.5rem;
+        height: 12.5rem;
+    }
+}
+
+.filosofia p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: .625rem;
+}

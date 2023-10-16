@@ -1,0 +1,15 @@
+@media(min-width: 744px){
+    .headerContactos{
+        background-color: $bg-headerContactos;
+        width: 90%;
+        height: 100%;
+        border-radius: .625rem;
+        overflow: hidden;
+        box-shadow: 7px 7px 7px rgba(128, 128, 128, 0.166);
+        margin-bottom: 10px;
+        position: relative;
+        text-align: justify;
+        padding: 15px;
+        gap: 1.25rem;
+    }
+}

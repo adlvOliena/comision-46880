@@ -1,0 +1,54 @@
+header{
+    width: 100%;
+    position: sticky;
+    background-color: $bg-header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1,25rem;
+    top: 0;
+    z-index: 4;
+
+    .logo{
+        width: 60px;
+        padding: 5px;
+        & img{
+            width: 100%;
+        }
+    }
+
+}
+
+
+.headerContactos p{
+    padding: .625rem;
+    text-align: justify;
+    text-wrap: wrap ;
+}
+
+.headerContactos h2{
+    text-align: center;
+    text-wrap: wrap
+}
+
+.headerNovedades-1{
+    background-color: $bg-headerNovedades-1;
+    width: 980px;
+    height: 13.125rem;
+    margin: .625rem;
+    padding: .75rem;
+    text-indent: 1.875rem;
+    font-weight: bold;
+}
+
+.headerNovedades-2{
+    @extend .headerNovedades-1;
+    background-color: $bg-headerNovedades-2;
+}
+
+.headernovedades p{
+    padding: .625rem;
+    text-align: justify;
+    text-wrap: 175rem ;
+}

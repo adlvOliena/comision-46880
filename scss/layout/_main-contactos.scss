@@ -1,0 +1,12 @@
+.formularioContacto{
+    @include flex(row,none,center);
+    padding: 20px;
+}
+
+.formularioContacto form{
+    padding: .3125rem;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+

@@ -1,0 +1,65 @@
+@import "./utilities/variables";
+
+@import "./utilities/mixins";
+
+@import "./utilities/maps";
+
+@import "./base/reset";
+
+@import "./base/typo";
+
+@import "./layout/header";
+
+@import "./layout/navbar";
+
+@import "./layout/main-index";
+
+@import "./layout/main-contactos";
+
+@import "./layout/main-servicios";
+
+@import "./layout/main-quienessomos";
+
+@import "./layout/footer";
+
+@import "./components/cards";
+
+@import "./components/botones";
+
+@import "./layout/medias/media425";
+
+@import "./layout/medias/media425-744";
+
+@import "./layout/medias/media744";
+
+
+
+.titulo h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.subtitulo{
+    @include flex(column,center,none);
+    height: 100%;
+    width: 350px;
+    font-size: map-get($font-size , md);
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.subtitulo p{
+    padding: .3125rem;
+}
+
+.subtitulo img{
+    height: 200px;
+    width: 300px;
+    border-radius: .625rem;
+}
+
+
+
+
+
+
