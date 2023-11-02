@@ -1,12 +1,13 @@
-# SEGUNDA ENTREGA 
+# Proyecto Final
 
->primer repositorio en la comision 46880
+>Comision 46880
 
->Tercer entrega
+>El proyecto se trata de un sitio institucional para un estudio contable ficticio. 
 
->Boostrap en HTML "Novedades" -> grid y responsive
 
->Las HTML responsive son "servicios" y Quienes somos" y "novedades",  para Tablet y celular.
+>Boostrap en HTML "Novedades" -> grid
+
+>HTML responsive para PC, Tablet y celular.
 
 >& en header.scss, cards.scss, main-index.scss
 
@@ -14,8 +15,8 @@
 
 >Variables en variables.scss
 
->Animacion en HTML "servicios"
-
+>Animacion en HTML "servicios" y menu principal del sitio
+ 
 >SEO y metatags en todas las HTML
 
 
@@ -31,6 +32,8 @@
 
 ## Herramientas
 
+- Maqutacion con Figma
+- Github
 - HTML
 . CSS
 . SASS

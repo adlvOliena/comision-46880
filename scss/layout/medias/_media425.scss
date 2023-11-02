@@ -10,12 +10,14 @@
     .headerContactos{
         background-color: $bg-headerContactos;
         border-radius: .625rem;
+        p{
+            padding: 5px;
+            text-align: justify;
+         }
     }
     
-    .headerContactos p{
-        padding: 5px;
-        text-align: justify;
-   }
+ 
+
    .foot{
     margin-top: 60px;
    }
@@ -27,14 +29,15 @@
         background-color: $bg-articulosServicios;
     }
 
-    .titulo h1{
-        display: none;
-    }
+    
        
     .titulo{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        h1{
+            display: none;
+        }
     }   
     .navbarresponsive{
         flex-direction: column;
@@ -68,5 +71,18 @@
         align-items: center;
         padding: 20px;
         gap: 1.25rem;
+    }
+}
+
+
+@media(max-width: 425px){
+    .formularioContacto{
+        form{
+            fieldset{
+                padding: .3125rem;
+                display: flex;
+                flex-direction: column;
+            } 
+        }
     }
 }

@@ -21,15 +21,17 @@ header{
 }
 
 
-.headerContactos p{
-    padding: .625rem;
-    text-align: justify;
-    text-wrap: wrap ;
-}
+.headerContactos{
+    p{
+        padding: .625rem;
+        text-align: justify;
+        text-wrap: wrap ;
+    }
 
-.headerContactos h2{
-    text-align: center;
-    text-wrap: wrap
+    h2{
+        text-align: center;
+        text-wrap: wrap
+    }
 }
 
 .headerNovedades-1{
